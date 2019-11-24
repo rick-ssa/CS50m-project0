@@ -14,6 +14,24 @@ ul {
   list-style-type: none;
 }
 
+li {
+  position: relative;
+  widows: 100%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+
+li button {
+  position: absolute;
+  top:7px;
+  right:0;
+}
+
+@keyframes show {
+  from {width:10px; height:10px; margin:auto; opacity:0}
+  to {width:450px; height: 450px; margin:auto; opacity:1}
+}
+
 .center {
   align-self: center;
 }
